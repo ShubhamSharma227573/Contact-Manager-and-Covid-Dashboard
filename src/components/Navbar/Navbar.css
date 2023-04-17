@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #1976d2;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    
+
+
+}
+
+
+
+.navbar__menu {
+    font-size: xx-large !important;
+    flex: 0.1;
+
+}
+
+.navbar__title {
+    text-align: start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex: 0.9;
+    font-weight: bold;
+
+}

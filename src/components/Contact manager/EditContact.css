@@ -1,0 +1,29 @@
+.editpage{
+    display: flex;
+    background-color: #f5f6fa;
+}
+
+.editpage_form {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.editpage_form >h3 {
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.form_update{
+    background-color:#3B71CA;
+    border: 0;
+    padding: 24px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+}

@@ -1,0 +1,58 @@
+.covid__dashboard {
+    flex: 0.9;
+    padding: 20px;
+    
+    background-color: #f5f6fa;
+
+}
+
+
+
+
+.covid__Main {
+        display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.covid__Main>h3 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.covidMain_left{
+    flex:0.7;
+    padding-right: 20px;
+}
+
+.covidMain_leftheader{
+    margin-bottom: 20px;
+}
+
+.covidMain_right{
+    flex:0.3;
+}
+
+.covid__stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.covidMain_leftheader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart__header{
+    margin-bottom:5px ;
+    margin-top: 10px;
+}
+
+@media  (max-width:900px) {
+      .covid__Main{
+        flex-direction:column;
+      }
+}
+
+    

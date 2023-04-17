@@ -1,0 +1,52 @@
+.contactpage {
+    flex: 0.9;
+    background-color: #f5f6fa;
+    padding: 20px;
+    height: 100%;
+
+    
+
+
+
+}
+
+
+
+.contactpage>h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+.contactpage__table {
+    border-collapse: separate;
+    margin: 35px 0;
+    font-size: 1em;
+    width: 100%;
+    border-spacing: 0 25px;
+
+}
+
+.contactpage__table>thead {
+    background-color: coral;
+
+}
+
+.contactpage__table>tbody {
+    text-align: center;
+
+}
+.contactpage__table > td{
+    align-items: center;
+}
+
+.contactpage__edit{
+    margin: 10px !important;
+    background: #14A44D !important;
+    
+}
+.contactpage__delete{
+    margin: 10px !important;
+    background: #DC4C64 !important;
+    
+}

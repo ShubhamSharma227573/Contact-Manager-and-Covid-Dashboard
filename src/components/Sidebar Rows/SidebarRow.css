@@ -1,0 +1,45 @@
+.row {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.row:hover {
+    background-color: coral;
+    cursor: pointer;
+}
+
+.row__Icon {
+    color: #606060;
+    font-size: large !important;
+}
+
+.row__title {
+    flex: 1;
+    font-weight: 500;
+    font-size: large;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.row:hover>.row__Icon {
+    color: #1976d2;
+}
+
+.row:hover>.row__title {
+    font-weight: bold;
+}
+
+.row.selected {
+    background-color: coral;
+}
+
+.row.selected>.row__Icon {
+    color: rgb(64, 150, 225);
+}
+
+.row.selected>.row__title {
+    font-weight: bold;
+}
+
