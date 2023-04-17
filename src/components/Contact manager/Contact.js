@@ -20,7 +20,7 @@ function Contact() {
         <Button className='contactpage__button' variant="contained">Add Contact</Button>
       </Link>
       <table className='contactpage__table'>
-        <thead>
+        <thead className='table__head'>
           <tr>
             <th>ID</th>
             <th>Name</th>
@@ -29,7 +29,7 @@ function Contact() {
             <th>Action</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className='table__body'>
           {users.map((user,index)=>(
             <tr key={index}>
               <td>{user.id}</td>

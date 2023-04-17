@@ -1,13 +1,9 @@
 .contactpage {
     flex: 0.9;
     background-color: #f5f6fa;
-    padding: 20px;
+    padding: 5px;
     height: 100%;
-
-    
-
-
-
+    width: 100%;
 }
 
 
@@ -20,33 +16,51 @@
 
 .contactpage__table {
     border-collapse: separate;
-    margin: 35px 0;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 1em;
-    width: 100%;
+    width: 80%;
     border-spacing: 0 25px;
+    table-layout: auto;
+
+
 
 }
 
 .contactpage__table>thead {
     background-color: coral;
+    text-align: center;
 
 }
 
 .contactpage__table>tbody {
     text-align: center;
 
-}
-.contactpage__table > td{
-    align-items: center;
+
 }
 
-.contactpage__edit{
+.contactpage__table>td {
+    align-items: center;
+
+}
+
+.contactpage__edit {
     margin: 10px !important;
     background: #14A44D !important;
-    
+
 }
-.contactpage__delete{
+
+.contactpage__delete {
     margin: 10px !important;
     background: #DC4C64 !important;
-    
+
+}
+
+
+@media (max-width:600px){
+    .contactpage{
+        padding-left:  0px; ;
+    }
 }

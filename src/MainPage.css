@@ -1,4 +1,10 @@
 .mainpage{
     display: flex;
-    
+    overflow: auto;
+}
+
+@media (max-width:600px){
+    .mainpage{
+        flex-direction: column;
+    }
 }

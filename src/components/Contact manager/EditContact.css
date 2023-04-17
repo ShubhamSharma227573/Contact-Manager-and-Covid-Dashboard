@@ -27,3 +27,10 @@
     border-radius: 8px;
     font-weight: bold;
 }
+
+
+@media (max-width:600px){
+    .editpage{
+        flex-direction: column;
+    }
+}

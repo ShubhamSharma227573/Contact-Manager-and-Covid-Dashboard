@@ -12,3 +12,9 @@
     background-color: blue;
 
 }
+
+@media (max-width:600px){
+    .sidebar{
+        width: 100% !important;
+    }
+}
